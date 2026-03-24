@@ -2,7 +2,7 @@ class HexCli < Formula
   desc "On-device audio transcription CLI (WhisperKit + Parakeet)"
   homepage "https://github.com/fbehrens/HexCLI"
   url "https://github.com/fbehrens/HexCLI/releases/download/v0.1.1/hex-cli-v0.1.1-arm64-apple-macosx.tar.gz"
-  sha256 "202ca5af07c4108b0e6b1b7d9c3856ba48bb8bd2b10e2de44133e39d626a5d2c"
+  sha256 "234aa4a455d798201b86cb57ee22051106dc9c231a625b5a70686c62d7fe5cee"
   version "0.1.1"
   license "MIT"
 
@@ -11,6 +11,7 @@ class HexCli < Formula
 
   def install
     bin.install "hex-cli"
+    fish_completion.install "completions/hex-cli.fish"
   end
 
   test do
