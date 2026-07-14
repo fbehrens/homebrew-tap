@@ -1,9 +1,9 @@
 class HexCli < Formula
   desc "On-device audio transcription CLI (WhisperKit + Parakeet)"
   homepage "https://github.com/fbehrens/HexCLI"
-  url "https://github.com/fbehrens/HexCLI/releases/download/v0.1.1/hex-cli-v0.1.1-arm64-apple-macosx.tar.gz"
-  sha256 "234aa4a455d798201b86cb57ee22051106dc9c231a625b5a70686c62d7fe5cee"
-  version "0.1.1"
+  url "https://github.com/fbehrens/HexCLI/releases/download/v0.2.0/hex-cli-v0.2.0-arm64-apple-macosx.tar.gz"
+  sha256 "e4f0d5b6ab284169e2b45674cc5c46b4e23db51408fff8d96457900b21eece66"
+  version "0.2.0"
   license "MIT"
 
   depends_on :macos
