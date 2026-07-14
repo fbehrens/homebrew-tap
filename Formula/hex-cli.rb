@@ -6,7 +6,6 @@ class HexCli < Formula
   version "0.2.1"
   license "MIT"
 
-  depends_on :macos
   depends_on macos: :sequoia
 
   def install
